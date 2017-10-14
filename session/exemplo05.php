@@ -18,7 +18,7 @@ switch (session_status()) {
 		echo "Sessão habilitada, mas nao iniciada";
 		break;
 	case PHP_SESSION_ACTIVE:
-		echo "sessão habilitada";
+		echo "sessão habilitada e iniciada";
 		break;
 }
 
